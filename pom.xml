@@ -20,5 +20,6 @@
 
     <modules>
         <module>configserver</module>
+        <module>productinfo</module>
     </modules>
 </project>

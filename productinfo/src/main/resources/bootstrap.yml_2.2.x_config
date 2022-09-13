@@ -1,0 +1,9 @@
+#Config for Spring boot 2.2.x
+spring:
+  application:
+    name: product-info
+  profiles:
+    active: prod
+  cloud:
+    config:
+      uri: http://localhost:8071
