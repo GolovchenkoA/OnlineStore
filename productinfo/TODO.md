@@ -8,3 +8,10 @@ The SPRING_CONFIG_IMPORT variable was added into the docker-compose file because
 of Spring boot doesn't "see" spring.config.import variable in application.properties
 But probably see it (and get its value localhost:8071) later.
 TODO: get configuration only from configserver:8071
+
+
+## Update
+1. Use Rest-Assured to test Controllers
+   https://github.com/rest-assured/rest-assured/wiki/GettingStarted
+2. Use Spring Cloud Contract to write contracts for 2 microservices
+   https://spring.io/projects/spring-cloud-contract
